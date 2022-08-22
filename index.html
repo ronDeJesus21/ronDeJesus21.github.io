@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Ronel De Jesus</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+  </head>
+  <body id="myBody">
+    <!-- nav bar -->
+    <div class="navbar-container">
+      <div class="logo-container">
+        <a href="#">Portfolio</a>
+      </div>
+
+      <ul id="menuContainer" class="menu-container hide">
+        <li
+          id="liContainer1"
+          class="li li-color"
+          onclick="location.href='#home'"
+        >
+          <a href="#home">Home</a>
+        </li>
+        <li id="liContainer2" class="li" onclick="location.href='#skills'">
+          <a href="#skills">Skills</a>
+        </li>
+        <li id="liContainer3" class="li" onclick="location.href='#projects'">
+          <a href="#projects">Projects</a>
+        </li>
+        <li id="liContainer4" class="li" onclick="location.href='#contact'">
+          <a href="#contact">Contact</a>
+        </li>
+      </ul>
+
+      <div id="darkTrigger" class="darkMode-container">
+        <i id="darkIcon" class="fa-solid fa-moon"></i>
+      </div>
+
+      <div id="menuTrigger" class="menu-logo">
+        <i id="menuIcon" class="fa-solid fa-bars"></i>
+      </div>
+    </div>
+
+    <!-- home -->
+    <div id="home" class="home-container">
+      <div class="mobile-container">
+        <div class="introduce-container">
+          <h1 class="hello-world">Hello World!</h1>
+          <h1>I'm <span>Ronel De Jesus</span></h1>
+          <h4>Aspiring Web Developer and Software Engineer</h4>
+          <a href="./css/cv/cv-roneldejesus.pdf" download
+            ><button>Download CV</button></a
+          >
+        </div>
+
+        <div class="ronel-container">
+          <img src="./media/ronel.png" alt="Ronel" />
+        </div>
+      </div>
+    </div>
+
+    <!-- skills -->
+    <div id="skills" class="skills-container">
+      <div class="mobile-container">
+        <div class="skills-head">
+          <h1>Skills</h1>
+        </div>
+        <div class="skills-grid">
+          <div class="skills-img-container1">
+            <img src="./media/html.png" alt="HTML" />
+            <div class="img-title">
+              <p>HTML</p>
+            </div>
+          </div>
+
+          <div class="skills-img-container2">
+            <img src="./media/css.png" alt="HTML" />
+            <div class="img-title">
+              <p>CSS</p>
+            </div>
+          </div>
+
+          <div class="skills-img-container3">
+            <img src="./media/js.png" alt="HTML" />
+            <div class="img-title">
+              <p>JavaScript</p>
+            </div>
+          </div>
+
+          <div class="skills-img-container4">
+            <img src="./media/bootstrap.png" alt="HTML" />
+            <div class="img-title">
+              <p>Bootstrap</p>
+            </div>
+          </div>
+
+          <div class="skills-img-container5">
+            <img src="./media/php.png" alt="HTML" />
+            <div class="img-title">
+              <p>PHP</p>
+            </div>
+          </div>
+
+          <div class="skills-img-container6">
+            <img src="./media/mysql.png" alt="HTML" />
+            <div class="img-title">
+              <p>MySql</p>
+            </div>
+          </div>
+
+          <div class="skills-img-container7">
+            <img src="./media/c++.png" alt="HTML" />
+            <div class="img-title">
+              <p>C++</p>
+            </div>
+          </div>
+
+          <div class="skills-img-container8">
+            <img src="./media/java.png" alt="HTML" />
+            <div class="img-title">
+              <p>Java</p>
+            </div>
+          </div>
+
+          <div class="skills-img-container9">
+            <img src="./media/python1.png" alt="HTML" />
+            <div class="img-title">
+              <p>Python</p>
+            </div>
+          </div>
+
+          <div class="skills-img-container10">
+            <img src="./media/embedded.png" alt="HTML" />
+            <div class="img-title">
+              <p>Embedded</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- projects -->
+    <div id="projects" class="projects-container">
+      <div class="mobile-container">
+        <div class="projects-head">
+          <h1>Projects</h1>
+        </div>
+
+        <div class="slideshow-container">
+          <div class="mySlides fade">
+            <div class="project-box-container">
+              <img src="./media/facebook.png" alt="" />
+              <img class="single" src="./media/facebook2.png" alt="" />
+              <div class="project-description">
+                <p>Facebook Landing Page</p>
+                <a href="./Facebook/index.html" target="_blank"
+                  ><button>View Project</button></a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="project-box-container">
+              <img src="./media/lenor.png" alt="" />
+              <img class="single" src="./media/lenor2.png" alt="" />
+              <div class="project-description">
+                <p>My First Portfolio Website</p>
+                <a href="./myPortfolio/index.html" target="_blank"
+                  ><button>View Project</button></a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="project-box-container">
+              <img src="./media/landing-page.png" alt="" />
+              <img class="single" src="./media/landing-page2.png" alt="" />
+              <div class="project-description">
+                <p>Landing Page</p>
+                <a href="./Landing-page/index.html" target="_blank"
+                  ><button>View Project</button></a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="project-box-container">
+              <img src="./media/personal-portfolio.png" alt="" />
+              <img
+                class="single"
+                src="./media/personal-portfolio2.png"
+                alt=""
+              />
+              <div class="project-description">
+                <p>Personal Portfolio</p>
+                <a href="./Personal Portfolio/index.html" target="_blank"
+                  ><button>View Project</button></a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="project-box-container">
+              <img src="./media/survey-form.png" alt="" />
+              <img class="single" src="./media/survey-form2.png" alt="" />
+              <div class="project-description">
+                <p>Survey Form</p>
+                <a href="./Survey-form/index.html" target="_blank"
+                  ><button>View Project</button></a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="project-box-container">
+              <img src="./media/technical.png" alt="" />
+              <img class="single" src="./media/technical2.png" alt="" />
+              <div class="project-description">
+                <p>Technical Documentation Page</p>
+                <a
+                  href="./Technical-documentation-page/index.html"
+                  target="_blank"
+                  ><button>View Project</button></a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="project-box-container">
+              <img src="./media/tribute.png" alt="" />
+              <img class="single" src="./media/tribute2.png" alt="" />
+              <div class="project-description">
+                <p>Tribute Page</p>
+                <a href="./tribute-page/index.html" target="_blank"
+                  ><button>View Project</button></a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="project-box-container">
+              <img src="./media/tnd.png" alt="" />
+              <img class="single" src="./media/tnd2.png" alt="" />
+              <div class="project-description">
+                <p>Truepa Never Dies</p>
+                <a href="./myWebsite3/index.html" target="_blank"
+                  ><button>View Project</button></a
+                >
+              </div>
+            </div>
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1)">❮</a>
+          <a class="next" onclick="plusSlides(1)">❯</a>
+
+          <div style="text-align: center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+            <span class="dot" onclick="currentSlide(6)"></span>
+            <span class="dot" onclick="currentSlide(7)"></span>
+            <span class="dot" onclick="currentSlide(8)"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-container">
+      <div class="mobile-container">
+        <h2>Design Project</h2>
+        <iframe
+          src="https://www.youtube.com/embed/VowaYmGRcA0"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </div>
+
+    <!-- contact -->
+    <div id="contact" class="contact-container">
+      <div class="foot">
+        <div class="form-container">
+          <input type="text" placeholder="Enter your email" />
+          <button>Sign-Up</button>
+        </div>
+
+        <div class="social-container">
+          <a
+            href="http://www.linkedin.com/in/ronel-de-jesus-760885222/"
+            target="_blank"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+          <a
+            href="https://www.facebook.com/ronel.dejesus.35977/"
+            target="_blank"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+          <a href="https://twitter.com/dejesus__ron" target="_blank"
+            ><i class="fa-brands fa-twitter"></i
+          ></a>
+          <a
+            href="https://www.instagram.com/dejesus__ron/?hl=en"
+            target="_blank"
+            ><i class="fa-brands fa-square-instagram"></i
+          ></a>
+          <a href="mailto:dejesusronel29@gmail.com" target="_blank"
+            ><i class="fa-solid fa-envelope"></i
+          ></a>
+          <a href="https://github.com/lenor21" target="_blank"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+        </div>
+
+        <div class="footer-container">
+          <p>Copyright &copy; 2022 Ronel De Jesus</p>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <script src="./js/darkmode.js"></script>
+  <script src="./js/menu.js"></script>
+  <script src="./js/slider.js"></script>
+</html>

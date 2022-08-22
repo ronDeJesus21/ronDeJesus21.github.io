@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Facebook - log in</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+
+<body>
+	<div class="main">
+		<div class="container">
+			<div class="section1-container">
+				<img id="img" src="./media/facebook-logo.png">
+				<h2>Connect with friends and the world around you on Facebook.</h2>
+			</div>
+
+			<div class="section2-container">
+				<form class="form-container">
+					<input class="first-input" placeholder="Email or phone number"></input><br>
+					<input class="second-input" placeholder="Password"></input><br>
+					<button class="login-button"><a href="login.html">Log In</a></button><br>
+					<a class="link-tag" href="forgot.html">Forgot password?</a>
+					<hr class="hr">
+					<label id="createButton" class="create-button">Create new account</label>
+				</form>
+				<br>
+				<p><a href="#">Create a page</a> for a celebrity, brand or business.</p>
+			</div>
+
+			<div id="modalContainer" class="modal-container hide">
+				<div class="modal">
+					<div class="heading-container">
+						<div class="head">
+							<h1>Sign Up</h1>
+							<i id="iconClose" class="fa-solid fa-close"></i>
+						</div>
+						<div class="para-container">
+							<p>It’s quick and easy.</p>
+						</div>
+					</div>
+				<hr>
+				<form class="form2-container">
+					<div class="two-input">
+						<input type="text" name="first-name" placeholder="First name">
+						<input type="text" name="last-name" placeholder="Last name">
+					</div>
+					<input class="input" type="text" name="email" placeholder="Mobile number or email">
+					<input class="input" type="password" name="password" placeholder="New password">
+					<label class="label">Birthday <i class="fa-solid fa-circle-question"></i></label>
+					<div class="select-container">
+						<select class="month">
+							<option value="jan">Jan</option>
+							<option value="feb">Feb</option>
+							<option value="mar">Mar</option>
+							<option value="apr">Apr</option>
+							<option value="may">May</option>
+							<option value="jun">Jun</option>
+							<option value="jul">Jul</option>
+							<option value="aug">Aug</option>
+							<option value="sep">Sep</option>
+							<option value="oct">Oct</option>
+							<option value="nov">Nov</option>
+							<option value="dec">Dec</option>
+						</select>
+						<select class="day">
+							<option value="1">1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
+							<option value="5">5</option>
+							<option value="6">6</option>
+							<option value="7">7</option>
+							<option value="8">8</option>
+							<option value="9">9</option>
+							<option value="10">10</option>
+							<option value="11">11</option>
+							<option value="12">12</option>
+						</select>
+						<select class="year">
+							<option value="2022">2022</option>
+							<option value="2021">2021</option>
+							<option value="2020">2020</option>
+							<option value="2019">2019</option>
+							<option value="2018">2018</option>
+							<option value="2017">2017</option>
+							<option value="2016">2016</option>
+							<option value="2015">2015</option>
+							<option value="2014">2014</option>
+							<option value="2013">2013</option>
+							<option value="2012">2012</option>
+							<option value="2011">2011</option>
+						</select>
+					</div>
+					<label class="label">Gender <i class="fa-solid fa-circle-question"></i></label>
+					<div class="radio-container">
+						<div class="same-container">
+						<label>Female</label>
+						<input type="radio" name="female">
+					</div>
+					<div class="same-container">
+						<label>Male</label>
+						<input type="radio" name="male">
+					</div>
+					<div class="same-container">
+						<label>Custom</label>
+						<input type="radio" name="custom">
+					</div>
+					</div>
+					<p>People who use our service may have uploaded your contact information to Facebook. <a href="#">Learn more.</a></p>
+					<p>By clicking Sign Up, you agree to our <a href="#">Terms</a>, <a href="#">Privacy Policy</a> and <a href="#">Cookies Policy</a>. You may receive SMS Notifications from us and can opt out any time.</p>
+					<div class="sign-container">
+						<button>Sign Up</button>
+					</div>
+				</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
+<script type="text/javascript" src="main.js"></script>

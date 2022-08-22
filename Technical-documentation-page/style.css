@@ -1,0 +1,142 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 1.5;
+	font-size: 15px;
+	word-spacing: 1px;
+}
+
+#navbar{
+	width: 300px;
+	height: 100%;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	overflow-x: hidden;
+}
+
+#main-doc{
+	margin-left: 300px;
+	border-left: 3px solid #99a2a2;
+}
+
+.main-section{
+	padding: 20px 40px 0 40px;
+}
+
+.header-container{
+	width: 300px;
+	height: 70px;
+	position: fixed;
+}
+
+.header-container h1{
+	font-size: 30px;
+	font-weight: normal;
+	text-align: center;
+	padding: 15px 0;
+	background-color: #fff;
+}
+
+.nav-link{
+	font-size: 17px;
+}
+
+.nav-box{
+	margin-top: 80px;
+}
+
+.nav-box div{
+	border-top: 1px solid #333;
+	padding: 10px;
+}
+
+.nav-box a{
+	padding-left: 10px;
+	text-decoration: none;
+	color: #333;
+}
+
+#Introduction h1,
+#What_you_should_already_know h1,
+#JavaScript_and_Java h1,
+#Hello_world h1,
+#Variables h1,
+#Declaring_variables h1,
+#Variable_scope h1,
+#Global_variables h1,
+#Constants h1,
+#Data_types h1,
+#if_else_statement h1,
+#while_statement h1,
+#Function_declarations h1,
+#Reference h1{
+	font-weight: normal;
+	font-size: 29px;
+}
+
+.main-section .para{
+	padding: 15px 0 15px 15px;
+}
+
+.ul-container{
+	padding-left: 80px;
+}
+
+.ul-container li{
+	padding-bottom: 15px;
+}
+
+.another-box{
+	width: 95%;
+	background-color: #f7f7f7;
+	margin: 0 auto;
+	border-radius: 5px;
+	padding: 20px 0 20px 20px;
+}
+
+.another-box p{
+	font-size: 14px;
+	word-spacing: 2px;
+	letter-spacing: .7px;
+}
+
+.list-style-type{
+	list-style-type: circle;
+	margin-left: 50px;
+}
+
+
+
+@media (max-width: 768px){
+	body{
+		
+	}
+
+	#navbar{
+		width: 100%;
+		height: 50vh;
+		position: relative;
+	}
+
+	.nav-box{
+		border: 1px solid #333;
+		margin-top: 10px;
+	}
+
+	.header-container{
+		width: 100%;
+		border-bottom: 5px solid #333;
+		position: relative;
+	}
+
+	#main-doc{
+		margin-left: 0;
+		border-top: 1px solid #333;
+	}
+}

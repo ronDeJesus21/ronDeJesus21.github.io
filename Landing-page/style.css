@@ -1,0 +1,209 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+	box-sizing: border-box;
+	background-color: #eeeeee;
+}
+
+#header{
+	background-color: #eee;
+	padding: 20px 0;
+	width: 100%;
+	position: fixed;
+	top: 0;
+}
+
+.header-container{
+	width: 95%;
+	display: flex;
+	justify-content: space-between;
+	margin: auto;
+}
+
+#header-img{
+	width: 300px;
+	height: 35px;
+}
+
+#nav-bar{
+	align-self: center;
+}
+
+#header ul{
+	display: flex;
+}
+
+#header li{
+	list-style: none;
+	align-self: center;
+	padding: 0 50px 0 30px;
+}
+
+.title{
+	text-align: center;
+	padding: 80px 0 20px 0;
+}
+
+.nav-link{
+	align-self: center;
+	text-decoration: none;
+	color: #333;
+}
+
+#form{
+	text-align: center;
+}
+
+.email-container{
+	padding: 0 0 15px 0;
+}
+
+#email{
+	width: 250px;
+	height: 15px;
+	padding: 5px;
+}
+
+#submit{
+	width: 160px;
+	height: 30px;
+	padding: 6px 10px;
+	font-size: 18px;
+	background-color: #f1c40f;
+	border: 0;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+i{
+	color: #333;
+}
+
+#section-container{
+	width: 65%;
+	margin: auto;
+	margin-top: 100px;
+
+}
+
+.fire-container{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 70px;
+}
+
+.fire-logo i{
+	font-size: 45px;
+	padding-left: 15px;
+	color: #ff8c00;
+}
+
+.fire-text{
+	width: 85%;
+	font-size: 15px;
+}
+
+#video-container{
+	padding-top: 40px;
+	padding-bottom: 70px;
+}
+
+#video-container,
+#video{
+	width: 550px; 
+	height: 315px;
+	margin: 0 auto;
+	border: none;
+}
+
+#box-container{
+	display: flex;
+	justify-content: space-between;
+	width: 75%;
+	margin: auto;
+	text-align: center;
+}
+
+.box{
+	width: 32%;
+	height: 300px;
+	border: 1px solid #333;
+}
+
+
+.box h5{
+	text-align: center;
+	background-color: #ddd;
+	padding: 18px;
+	font-size: 15px;
+}
+
+.box h2{
+	font-size: 26px;
+	padding: 13px 0;
+}
+
+.box p{
+	padding: 7px;
+}
+
+.box button{
+	margin-top: 8px;
+	width: 100px;
+	padding: 10px 0;
+	background-color: #f1c40f;
+	border: 0;
+}
+
+footer{
+	width: 75%;
+	margin: auto;
+	margin-top: 40px;
+	background-color: #ddd;
+}
+
+footer ul{
+	display: flex;
+	justify-content: end;
+	padding: 25px 25px 0 0;
+}
+
+footer li{
+	list-style: none;
+}
+
+footer a{
+	text-decoration: none;
+	padding-left: 15px;
+	color: #333;
+}
+
+footer p{
+	display: flex;
+	justify-content: end;
+	padding: 8px 25px 15px 0;
+	font-size: 14px;
+	color: #999;
+}
+
+@media (max-width: 768px){
+
+	.header-container{
+		display: block;
+
+	}
+
+	.header-img{
+		display: flex;
+		justify-self: center;
+	}
+
+	#box-container{
+		display: flex;
+	}
+}
